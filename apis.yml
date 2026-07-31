@@ -1,8 +1,25 @@
 aid: nexthop-systems
 name: Nexthop Systems
-description: Nexthop Systems is a company surfaced as a portfolio company of battery-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: 'Nexthop AI (Nexthop Systems) builds power-efficient AI networking infrastructure
+  for hyperscalers and NeoClouds — scale-out and scale-across Ethernet switches, a
+  networking software portfolio, and optics and cables engineered to lower the cost
+  per token of training and serving large AI models. Founded and led by CEO Anshul
+  Sadana, the company is backed by Battery Ventures and raised an oversubscribed $500M
+  Series B in 2025 at a $4.2 billion valuation. Nexthop runs a public marketing, blog
+  and news site plus a login-gated customer Support Hub and Learning Hub; it does not
+  currently publish a public developer API, OpenAPI specification, or SDK surface.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://nexthop.ai/wp-content/uploads/2025/12/cropped-logo-with-icon-linkedin-400x400.png
 url: https://raw.githubusercontent.com/api-evangelist/nexthop-systems/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +27,50 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-no-public-api: true
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Networking
+- AI Infrastructure
+- Data Center
+- Ethernet Switches
+- Optics and Cables
+- Networking Hardware
+- Hyperscaler
 apis: []
+common:
+- type: DomainSecurity
+  url: security/nexthop-systems-domain-security.yml
+- type: Website
+  url: https://nexthop.ai
+- type: About
+  url: https://nexthop.ai/about-us/
+- type: Blog
+  url: https://nexthop.ai/blogs/
+- type: BlogRSS
+  url: https://nexthop.ai/feed/
+- type: Support
+  url: https://nexthop.ai/support-hub/
+- type: HelpCenter
+  url: https://nexthop.ai/learning-hub/
+- type: Login
+  url: https://nexthop.ai/login/
+- type: PrivacyPolicy
+  url: https://nexthop.ai/privacy-policy/
+- type: TermsOfService
+  url: https://nexthop.ai/website-terms-and-conditions-of-use/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/nexthopai
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1

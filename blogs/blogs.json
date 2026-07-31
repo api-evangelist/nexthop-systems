@@ -1,0 +1,21 @@
+{
+  "repo": "nexthop-systems",
+  "feeds": [
+    {
+      "source": "https://nexthop.ai/about-us/",
+      "feed_url": "https://nexthop.ai/about-us/",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    },
+    {
+      "source": "https://nexthop.ai/blogs/",
+      "feed_url": "https://nexthop.ai/blogs/",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-07-25T15:00:33Z"
+}
