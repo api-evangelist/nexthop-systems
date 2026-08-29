@@ -8,6 +8,17 @@ description: 'Nexthop AI (Nexthop Systems) builds power-efficient AI networking 
   Series B in 2025 at a $4.2 billion valuation. Nexthop runs a public marketing, blog
   and news site plus a login-gated customer Support Hub and Learning Hub; it does not
   currently publish a public developer API, OpenAPI specification, or SDK surface.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
